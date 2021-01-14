@@ -12,6 +12,7 @@ Lord BaseX (c) 2014-2020
 Material del Webinar.
 
 [WIKI DEL CURSO](https://github.com/iperfex-team/curso-asterisk-docker/wiki)
+
 [PRESENTACIÓN POWERPOINT](https://github.com/iperfex-team/webinar_irv_con_esteroides_en_asterisk/raw/main/IVR_CON_ESTEROIDES_EN_ASTERISK-14-01-2021.pptx)
 
 ## CLONE
