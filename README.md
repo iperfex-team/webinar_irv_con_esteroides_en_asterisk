@@ -10,7 +10,7 @@ Para ellos vamos a utilizar :
 
 - Contenedor Docker en Debian con FASTAGI,  que permite la comunicación con sistemas terceros en forma directa. Con FASTAGI el proceso se establece a través de una conexión TCP/IP y de esta forma es posible liberar los recursos de la máquina Asterisk (Issabel) de forma bastante eficiente.
 
-Nota: La diferencia entre AGI (Asterisk Gateway Interface, sirve de pasarela entre los distintos lenguajes de programación y Asterisk) y FASTAGI es que el proceso se ejecuta en otra maquina o contenedor a través de comunicaciones TCP/IP, liberando los recursos que son cruciales para IVRs o aplicaciones que tengan muchos impactos.
+**Nota: La diferencia entre AGI (Asterisk Gateway Interface, sirve de pasarela entre los distintos lenguajes de programación y Asterisk) y FASTAGI es que el proceso se ejecuta en otra maquina o contenedor a través de comunicaciones TCP/IP, liberando los recursos que son cruciales para IVRs o aplicaciones que tengan muchos impactos.**
 
 ![webinar](https://raw.githubusercontent.com/iperfex-team/webinar_irv_con_esteroides_en_asterisk/main/webinar_ivr_con_esteroides_en_asterisk.png)
 
