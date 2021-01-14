@@ -18,6 +18,7 @@ Nota: La diferencia entre AGI (Asterisk Gateway Interface, sirve de pasarela ent
 
 Lord BaseX (c) 2014-2020
  Federico Pereira <fpereira@iperfex.com>
+ Pablo Miranda <pmiranda@iperfex.com>
 
 Material del Webinar.
 
