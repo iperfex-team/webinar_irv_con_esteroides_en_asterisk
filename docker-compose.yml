@@ -1,0 +1,21 @@
+version: '3.6'
+services:
+
+  fastagi:
+    container_name: fastagi
+    image: lordbasex/asterisk-fastagi:latest
+    restart: always
+    ports:
+      - 4573:4573
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./user-data/var/log/:/var/log
+      - ./agi:/agi
+      - ./audio:/audio
+    environment:
+      TIMEZONE: ${TIMEZONE}
+      LANGUAGE_AUDIO: ${LANGUAGE_AUDIO}
+      MODE_PRODUCTION: ${MODE_PRODUCTION}
+    working_dir: /agi
+
+    
