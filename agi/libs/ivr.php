@@ -33,7 +33,7 @@ function menu(){
                 if($mode_debug != "TRUE" OR $mode_debug != "true") agiLog('Opción 1 - Comunidad Religiosa');
                 $agi->noop('Opción 1 - Comunidad Religiosa');
                 $agi->stream_file('/audio/1-comunidad_religiosa','#');
-                $agi->exec_dial('IAX2','100');
+                $agi->exec_dial('SIP','100');
                 $billsec = get_var('ANSWEREDTIME');
                 $dialstatus = get_var('DIALSTATUS');
                 $agi->noop('ANSWEREDTIME: ->'.$billsec.'<- / DIALSTATUS: ->'.$dialstatus.'<-');
