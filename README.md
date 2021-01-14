@@ -14,9 +14,6 @@ Nota: La diferencia entre AGI (Asterisk Gateway Interface, sirve de pasarela ent
 
 ![webinar](https://raw.githubusercontent.com/iperfex-team/webinar_irv_con_esteroides_en_asterisk/main/webinar_ivr_con_esteroides_en_asterisk.png)
 
-
-
-Lord BaseX (c) 2014-2020
  Federico Pereira <fpereira@iperfex.com>
  Pablo Miranda <pmiranda@iperfex.com>
 
